@@ -1,0 +1,17 @@
+#pablo torres 1/7/2025
+#Alter this code so it asks a user for how many lines they cleared in Tetris. The program prints out the following for each score tier:
+# Novice: 0-100 lines
+# Intermediate: 100-200 lines
+# Advanced: 200-300 lines
+# Expert: 300+ lines
+
+
+score = int(input("Enter your score: "))
+if score < 100:
+    print("novice")
+elif score < 200:
+    print ("intermediate")
+elif score < 300:
+    print ("advanced")
+else:
+    print ("expert")
