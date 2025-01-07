@@ -1,0 +1,6 @@
+# pablo torres 1/7/2025
+# Alter this code so it prints out the numbers 2-80 counting by 10s, and another loop that prints numbers from 100 down to 10 counting down by 5s:
+
+#this code counts up to 80 
+for i in range(2, 80, 10):
+    print(i, end = " ")
